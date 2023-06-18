@@ -1,0 +1,90 @@
+#generalContenedor {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    /* height: 965px; */
+    height: 100%;
+}
+
+#formulario {
+   
+box-shadow:  -5px -32px 25px black;;
+  
+border-right: solid rgba(61, 61, 61, 0.447) 0.1px ;
+    width: 40%;
+    /* height: 100vh; */
+/* height: 965px; */
+}
+
+#ImgDoc {
+    width: 60%;
+    height: 100vh;
+    background-color: transparent;
+
+}
+
+#ImgDoc img {
+    /* margin-left: 180px;
+margin-top: 146px; */
+
+    position: fixed;
+    width: 50%;
+    bottom: 0px;
+    right: 10px;
+}
+
+#formulario button {
+    height: 70px;
+    width: 35%;
+    border-radius: 1000px;
+    border: none;
+    background-color: #3C7EAD;
+    color: white;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-left: 32%;
+}
+
+#formulario button:hover {
+    background-color: #37719a;
+
+}
+
+#formulario button:active {
+    background-color: #3C7EAD;
+
+}
+
+#titleone {
+
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30%;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+#titletwo {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 38%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30%;
+}
+
+.inputt {
+    height: 40px;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 30%;
+    border-radius: 7.5px;
+}
+
+.inputt:focus {
+    outline-color: rgb(30, 0, 198);
+
+}
